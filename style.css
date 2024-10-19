@@ -1,9 +1,8 @@
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth; /* Para transições suaves ao clicar no menu */
+    scroll-behavior: smooth; 
 }
 
 body {
@@ -17,7 +16,6 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Menu Cascata */
 nav ul {
     list-style-type: none;
     display: flex;
@@ -70,7 +68,6 @@ nav ul ul li a {
     white-space: nowrap;
 }
 
-/* Seção principal */
 main {
     padding: 50px;
     background-color: #f7fbff;
@@ -83,7 +80,6 @@ h2 {
     color: #1e3d59;
 }
 
-/* Galeria de Fotos */
 .gallery {
     max-width: 1200px;
     margin: 0 auto;
@@ -103,7 +99,7 @@ h2 {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    max-width: 250px; /* Define um tamanho máximo para as fotos */
+    max-width: 250px; 
 }
 
 .photo:hover {
@@ -142,7 +138,6 @@ button:hover {
     background-color: #133b5c;
 }
 
-/* Comentários */
 .comments {
     margin-top: 15px;
     background-color: #d1e7ff;
@@ -157,7 +152,6 @@ button:hover {
     margin-bottom: 10px;
 }
 
-/* Agradecimento */
 .thanks {
     margin-top: 50px;
     background-color: #d1e7ff;
@@ -177,7 +171,6 @@ button:hover {
     font-size: 1.2rem;
 }
 
-/* Rodapé */
 footer {
     background-color: #1e3d59;
     color: white;
@@ -192,7 +185,6 @@ footer p {
     margin: 0;
 }
 
-/* Estilo para o título da Home */
 #home {
     padding: 50px;
     background-color: #133b5c;
